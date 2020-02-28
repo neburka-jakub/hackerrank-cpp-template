@@ -1,0 +1,35 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "compilerPath": "/usr/bin/gcc",
+            "intelliSenseMode": "gcc-x64",
+            "cStandard": "c11",
+            "cppStandard": "c++14",
+            "defines": [],
+            "includePath": [
+                "${workspaceFolder}/**"
+            ]
+        },
+        {
+            "name": "WSL",
+            "compilerPath": "/usr/bin/gcc",
+            "intelliSenseMode": "gcc-x64",
+            "cStandard": "c11",
+            "cppStandard": "c++14",
+            "defines": [],
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/include/c++/9",
+                "/usr/include/x86_64-linux-gnu/c++/9",
+                "/usr/include/c++/9/backward",
+                "/usr/lib/gcc/x86_64-linux-gnu/9/include",
+                "/usr/local/include",
+                "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed",
+                "/usr/include/x86_64-linux-gnu",
+                "/usr/include"
+            ]
+        }
+    ],
+    "version": 4
+}
